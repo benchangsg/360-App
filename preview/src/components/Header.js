@@ -1,6 +1,7 @@
 import React from "react";
+import HeaderItem from "./HeaderItem";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,30 +20,11 @@ const Header = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  The Dairy Farm
-                  <span class="visually-hidden">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Pandan Gardens
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  The Botanique
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  The Hillview
-                </a>
-              </li>
+              {props.data.map((data) => (
+                <HeaderItem id={data.id} title={data.title} />
+              ))}
             </ul>
           </div>
         </div>
