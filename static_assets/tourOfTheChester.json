@@ -1,0 +1,167 @@
+{
+   "nav_icon": "chester_icon.png",
+   "firstPhotoId":"Carpark B",
+   "firstPhotoRotation":0,
+   "soundEffects": {
+      "navButton": {
+         "onEnter": {
+            "uri": "",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         },
+         "onClick": {
+            "uri": "",
+            "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+         }
+      },
+      "infoButton": {
+         "onEnter": {
+            "uri": "",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         }
+      },
+      "ambient": {
+         "uri": "",
+         "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
+         "loop": true,
+         "volume": 0.50
+      }
+   },
+   "photos":{
+      "Carpark B":{
+         "rotationOffset": 0,
+         "uri":"Carpark-B.jpg",
+         "tooltips":[
+            {
+               "text":"Carpark B(1)",
+               "rotationY":-30,
+               "rotationX": 20,
+               "linkedPhotoId":"Carpark B(1)"
+            }
+         ]
+      },
+      "Carpark B(1)":{
+         "rotationOffset": 0,
+         "uri":"Carpark-B(1).jpg",
+         "tooltips":[
+            {
+               "text":"Carpark B",
+               "rotationY": 180,
+               "linkedPhotoId":"Carpark B"
+            },
+            {
+               "text":"Carpark B Slope",
+               "rotationY": 0,
+               "linkedPhotoId":"Carpark B Slope"
+            }
+         ]
+      },
+      "Carpark B Slope":{
+         "rotationOffset": 0,
+         "uri":"Carpark-B-Slope.jpg",
+         "tooltips":[
+            {
+               "text":"Carpark B(1)",
+               "rotationY": 180,
+               "linkedPhotoId":"Carpark B(1)"
+            },
+            {
+               "text":"Rocket Tower",
+               "rotationY": 0,
+               "linkedPhotoId":"Rocket Tower"
+            }
+         ]
+      },
+      "Rocket Tower":{
+         "rotationOffset": 0,
+         "uri":"Rocket-Tower.jpg",
+         "tooltips":[
+            {
+               "text":"Carpark B Slope",
+               "rotationY": 180,
+               "linkedPhotoId":"Carpark B Slope"
+            },
+            {
+               "text":"Walkway-RT",
+               "rotationY": 80,
+               "linkedPhotoId":"Walkway-RT"
+            }
+         ]
+      },
+      "Walkway-RT":{
+         "rotationOffset": 0,
+         "uri":"Walkway-RT.jpg",
+         "tooltips":[
+            {
+               "text":"Rocket Tower",
+               "rotationY": 85,
+               "linkedPhotoId":"Rocket Tower"
+            },
+            {
+               "text":"Walkway-Middle",
+               "rotationY": -95,
+               "linkedPhotoId":"Walkway-Middle"
+            }
+         ]
+      },
+      "Walkway-Middle":{
+         "rotationOffset": 0,
+         "uri":"Walkway-Middle.jpg",
+         "tooltips":[
+            {
+               "text":"Walkway-RT",
+               "rotationY": 95,
+               "linkedPhotoId":"Walkway-RT"
+            },
+            {
+               "text":"Walkway-Shelter",
+               "rotationY": 270,
+               "linkedPhotoId":"Walkway-Shelter"
+            }
+         ]
+      },
+      "Walkway-Shelter":{
+         "rotationOffset": 0,
+         "uri":"Walkway-Shelter.jpg",
+         "tooltips":[
+            {
+               "text":"Walkway-Middle",
+               "rotationY": -90,
+               "linkedPhotoId":"Walkway-Middle"
+            },
+            {
+               "text":"Shelter",
+               "rotationY": 45,
+               "linkedPhotoId":"Shelter"
+            }
+         ]
+      },
+      "Shelter":{
+         "rotationOffset": 0,
+         "uri":"Shelter.jpg",
+         "tooltips":[
+            {
+               "text":"Walkway-Shelter",
+               "rotationY": 80,
+               "linkedPhotoId":"Walkway-Shelter"
+            },
+            {
+               "text":"Open Field",
+               "rotationY": -70,
+               "linkedPhotoId":"Open Field"
+            }
+         ]
+      },
+      "Open Field":{
+         "rotationOffset": 0,
+         "uri":"OpenField.jpg",
+         "tooltips":[
+            {
+               "text":"Shelter",
+               "rotationY": 90,
+               "linkedPhotoId":"Shelter"
+            }
+         ]
+      }
+   }
+}
+
