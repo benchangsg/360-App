@@ -1,13 +1,12 @@
 {
   "name": "virtual_tour",
-  "homepage": "https://benchangsg.github.io/",
+  "homepage": "https://benchangsg.github.io/Roeckt360",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "node node_modules/react-360/scripts/deploy.js",
     "start": "node node_modules/react-360/scripts/packager.js",
-    "bundle": "node node_modules/react-360/scripts/bundle.js",
+    "bundle": "node node_modules/react-360/scripts/bundle.js && sh node_modules/react-360/scripts/copy_assets.sh",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
     "devtools": "react-devtools",
     "test": "jest"
