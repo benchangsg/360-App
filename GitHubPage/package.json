@@ -1,8 +1,11 @@
 {
   "name": "virtual_tour",
+  "homepage": "https://benchangsg.github.io/",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node node_modules/react-360/scripts/packager.js",
     "bundle": "node node_modules/react-360/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
@@ -19,6 +22,7 @@
   "devDependencies": {
     "babel-jest": "^19.0.0",
     "babel-preset-react-native": "^1.9.1",
+    "gh-pages": "^3.2.3",
     "jest": "^19.0.2",
     "react-devtools": "^2.5.2",
     "react-test-renderer": "16.0.0",
